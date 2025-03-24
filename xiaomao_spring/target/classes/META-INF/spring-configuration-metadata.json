@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "file",
+      "type": "com.zyh.graduation.config.util.FileProperties",
+      "sourceType": "com.zyh.graduation.config.util.FileProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "file.upload-dir",
+      "type": "java.lang.String",
+      "sourceType": "com.zyh.graduation.config.util.FileProperties"
+    }
+  ],
+  "hints": []
+}
