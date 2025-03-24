@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "选择电影院",
+  "usingComponents": {
+    "select-time": "/components/select-time/select-time",
+    "filter-nav": "/components/filter-nav/filter-nav"
+  }
+}

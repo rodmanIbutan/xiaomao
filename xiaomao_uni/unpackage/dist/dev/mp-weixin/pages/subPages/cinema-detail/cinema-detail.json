@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "电影院详情",
+  "usingComponents": {
+    "select-movie": "/components/select-movie/select-movie",
+    "select-time": "/components/select-time/select-time"
+  }
+}

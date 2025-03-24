@@ -1,0 +1,202 @@
+{
+	"pages": [{
+			"path": "pages/home/index",
+			"style": {
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 5,
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/cinema/index",
+			"style": {
+				"usingComponents": {
+					"filter-nav": "/components/filter-nav/filter-nav"
+				}
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/subPages/cinema-map/cinema-map",
+			"style": {
+				"navigationBarTitleText": "电影院地图"
+			}
+		},
+		{
+			"path": "pages/subPages/city-select/city-select",
+			"style": {
+				"navigationBarTitleText": "城市选择"
+			}
+		},
+		{
+			"path": "pages/subPages/comment-page/comment-page",
+			"style": {
+				"navigationBarTitleText": "评论页面"
+			}
+		},
+		{
+			"path": "pages/subPages/comment-write/comment-write",
+			"style": {
+				"navigationBarTitleText": "撰写评论"
+			}
+		},
+		{
+			"path": "pages/subPages/filmDetail/filmDetail",
+			"style": {
+				"navigationBarTitleText": "电影详情"
+			}
+		},
+		{
+			"path": "pages/subPages/movie-detail/movie-detail",
+			"style": {
+				"navigationBarTitleText": "电影详情"
+			}
+		},
+		{
+			"path": "pages/subPages/movie-order/movie-order",
+			"style": {
+				"navigationBarTitleText": "电影订单"
+			}
+		},
+		{
+			"path": "pages/subPages/movie-order-detail/movie-order-detail",
+			"style": {
+				"navigationBarTitleText": "电影订单详情"
+			}
+		},
+		{
+			"path": "pages/subPages/search-page/search-page",
+			"style": {
+				"navigationBarTitleText": "搜索页面"
+			}
+		},
+		{
+			"path": "pages/subPages/seat/hall",
+			"style": {
+				"navigationBarTitleText": "选座"
+			}
+		},
+		{
+			"path": "pages/subPages/select-cinema/select-cinema",
+			"style": {
+				"navigationBarTitleText": "选择电影院"
+			}
+		},
+		{
+			"path": "pages/subPages/snack-order/snack-order",
+			"style": {
+				"navigationBarTitleText": "零食订单"
+			}
+		},
+		{
+			"path": "pages/subPages/snack-page/snack-page",
+			"style": {
+				"navigationBarTitleText": "零食页面"
+			}
+		},
+		{
+			"path": "pages/subPages/video-page/video-page",
+			"style": {
+				"navigationBarTitleText": "视频页面"
+			}
+		},
+		{
+			"path": "pages/subPages/about-page/about-page",
+			"style": {
+				"navigationBarTitleText": "关于页面"
+			}
+		},
+		{
+			"path": "pages/subPages/buy-snack/buy-snack",
+			"style": {
+				"navigationBarTitleText": "购买零食"
+			}
+		},
+		{
+			"path": "pages/subPages/buy-ticket/buy-ticket",
+			"style": {
+				"navigationBarTitleText": "购买电影票"
+			}
+		},
+		{
+			"path": "pages/subPages/cinema-detail/cinema-detail",
+			"style": {
+				"navigationBarTitleText": "电影院详情"
+			}
+		},
+		{
+			"path": "pages/top/top",
+			"style": {
+				"navigationBarTitleText": "每周口碑",
+				"enablePullDownRefresh": true,
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/vip/vip",
+			"style": {
+				"navigationBarTitleText": "会员",
+				"enablePullDownRefresh": true,
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/subPages/buy-snack/select-seat",
+			"style": {
+				"navigationBarTitleText": "选择座位"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "black",
+		"selectedColor": "#47a86c",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/image/user/popular_icon.png",
+				"selectedIconPath": "static/image/user/popular_active_icon.png",
+				"text": "电影"
+			},
+			{
+				"pagePath": "pages/cinema/index",
+				"iconPath": "static/image/user/coming_icon.png",
+				"selectedIconPath": "static/image/user/coming_active_icon.png",
+				"text": "影院"
+			},
+			{
+				"pagePath": "pages/vip/vip",
+				"iconPath": "static/image/user/top_icon.png",
+				"selectedIconPath": "static/image/user/top_active_icon.png",
+				"text": "会员"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/image/user/my_icon.png",
+				"selectedIconPath": "static/image/user/my_active_icon.png",
+				"text": "我的"
+			}
+		]
+	},
+	"sitemapLocation": "sitemap.json",
+	"permission": {
+		"scope.userLocation": {
+			"desc": "获取你的位置信息"
+		}
+	},
+	"globalStyle": {
+		"backgroundTextStyle": "light",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "小猫",
+		"navigationBarBackgroundColor": "#47a86c",
+		"backgroundColor": "#F2f2f2",
+		"enablePullDownRefresh": false
+	},
+	"subPackages": []
+}

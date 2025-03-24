@@ -1,0 +1,1 @@
+<view><scroll-view class="timeline scroll-view_H" scroll-x="{{true}}"><block wx:for="{{daysClone}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="{{['day '+(item.day===selectDay?'active':'')]}}" data-day="{{item.day}}" data-event-opts="{{[['tap',[['selectDayFun',['$event']]]]]}}" bindtap="__e">{{''+item.title+''}}</view></block></scroll-view></view>

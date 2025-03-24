@@ -1,0 +1,1 @@
+<view><block wx:if="{{false}}"><block name="message"><block wx:if="{{!(message.visiable?false:true)}}"><view class="message-area"><view class="message"><view class="{{['message-icon message-icon-'+message.icon]}}"></view><view class="message-content">{{message.content}}</view></view></view></block></block></block></view>
